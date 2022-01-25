@@ -1,0 +1,88 @@
+#lista1{
+font-family:"Arial";
+list-style:none;
+float:right;
+width:73%;
+
+}
+
+#lista1 li{
+float:left;
+margin:7px;
+font-weight:bold;
+}
+
+#lista1 li a{
+border-top:gray 4px solid;
+}
+
+#lista1 li a{
+text-decoration:none;
+color:black;
+
+}
+
+#lista1 li a:hover{
+color:rgb(224,27,106);
+border-top:4px solid;
+}
+
+/* PARTE 2 */
+
+
+#lista2 {
+font-family:"Arial";
+float:right;
+width:73.5%;
+list-style:none;
+}
+
+#lista2 li {
+display:inline;
+font-weight:bold;
+float:left;
+margin:1px;
+background-color:darkgray;
+}
+
+#lista2 li a {
+text-decoration:none;
+color:white;
+padding:5px;
+display:inline-block;
+transition: background .3s;
+}
+
+#lista2 li a:hover { 
+background-color:skyblue;
+color:gray;
+}
+
+/* PARTE 3 */
+
+#lista3 {
+font-family:"Arial";
+float:right;
+width:74%;
+list-style:none;
+}
+
+#lista3 li {
+padding:2px;
+}
+
+#lista3 li a {
+display: block;
+width:12%;
+text-align: center;
+text-decoration:none;
+color: white;
+background-color: rgb(204,204,204);
+padding:20px;
+transition: background .4s;
+
+}
+
+#lista3 li a:hover {
+background-color: rgb(224,27,106);
+}
